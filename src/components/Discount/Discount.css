@@ -1,0 +1,101 @@
+.discount-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.discount-wrapper {
+  margin: 0 295px;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.discount-information-container {
+  flex: 1;
+  width: 10 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+  margin-left: 100px;
+}
+
+.discount-information-container p {
+  margin: 0;
+}
+
+.explore-btn {
+  margin-top: 70px;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 200px;
+  padding: 16px 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f27a44;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.discount-image {
+  width: 600px;
+  margin-bottom: 200px;
+}
+
+.shape-9 {
+  width: 200px;
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 1300px;
+  z-index: -1;
+}
+
+.shape-10 {
+  width: 50px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 120px;
+}
+
+.shape-11 {
+  width: 40px;
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 680px;
+}
+.shape-12 {
+  width: 60px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 400px;
+}
+.shape-13 {
+  width: 20px;
+  position: absolute;
+  margin-top: 900px;
+  margin-left: 700px;
+}
+
+@media only screen and (max-width: 480px) {
+  .discount-container {
+    height: 80vh;
+  }
+  .discount-wrapper {
+    margin: 0;
+    padding: 20px;
+  }
+  .discount-information-container {
+    margin: 0;
+    justify-content: start;
+  }
+  .explore-btn {
+    width: 100%;
+  }
+}

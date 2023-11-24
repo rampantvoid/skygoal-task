@@ -1,0 +1,33 @@
+.card {
+  scroll-snap-align: start;
+  height: 500px;
+  width: 360px;
+  list-style: none;
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 13px 13px 36px 3px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 13px 13px 36px 3px rgba(0, 0, 0, 0.26);
+}
+
+.card .img img {
+  width: 355px;
+  height: 300px;
+}
+
+.uni-name {
+  width: 100%;
+}
+
+.uni-address {
+  width: 100%;
+}
+
+.embla__slide {
+  flex: 0 0 400px;
+  min-width: 0;
+}
